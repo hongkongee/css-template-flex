@@ -169,7 +169,7 @@ section.contents .main-text::before {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  /* background: #ffec03; */
+  background: #ffec03;
 
   position: absolute;
   left: 70px;
@@ -307,8 +307,8 @@ section.contents .partner ul li {
   width: 25%;
   margin-bottom: 80px;
 
-  border: yellow solid 1px;
-  
+  /* border: yellow solid 1px; */
+  display: flex;
   justify-content: center;
   align-items: center;
 
